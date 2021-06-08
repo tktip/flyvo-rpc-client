@@ -1,0 +1,14 @@
+api:
+  port: 8181
+  timeout: 30s
+  rpc:
+    connTimeout: 30s
+    #IP:PORT of rpc server
+    serverAddress: 127.0.0.1:50051
+    #certFile: Z:\server.crt (certificate file - public key, drop to not use TLS)
+    pollFrequency: 1s
+    connFailSleep: 5s
+    flyvo:
+      address: http://localhost:7070
+logFile: Z:\test.txt
+logLevel: debug
